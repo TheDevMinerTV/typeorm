@@ -282,7 +282,7 @@ export class MysqlDriver implements Driver {
         "bit": { width: 1 },
         "int": { width: 11 },
         "integer": { width: 11 },
-        "tinyint": { width: 4 },
+        "tinyint": { width: 1 },
         "smallint": { width: 6 },
         "mediumint": { width: 9 },
         "bigint": { width: 20 }
